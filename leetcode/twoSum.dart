@@ -15,10 +15,28 @@ class Solution {
   }
 }
 
+class Solution2 {
+  List<int> twoSum(List<int> nums, int target) {
+    List<int> answer = [];
+    final Map<int, int> relayMap = {};
+    nums.asMap().forEach((key, value) {
+      int r = target - value;
+      if (relayMap.containsKey(r)) {
+        answer.add(relayMap[r]!);
+        answer.add(key);
+      } else {
+        relayMap[value] = key;
+      }
+    });
+
+    return answer;
+  }
+}
+
 void main(List<String> args) {
   List<int> testList = [1, 3, 4];
   int testNum = 4;
-  Solution test = Solution();
+  Solution2 test = Solution2();
   List<int> testSolution = test.twoSum(testList, testNum);
 
   print(testSolution);
