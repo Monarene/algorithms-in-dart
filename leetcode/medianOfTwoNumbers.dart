@@ -1,5 +1,4 @@
 //  Link to question => https://leetcode.com/problems/median-of-two-sorted-arrays/description/
-import 'dart:math' as math;
 
 class Solution {
   double findMedianSortedArrays(List<int> nums1, List<int> nums2) {
