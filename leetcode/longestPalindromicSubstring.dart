@@ -42,6 +42,6 @@ void main(List<String> args) {
   String s1 = "babad";
   String s2 = "cbbd";
   Solution testSolution = Solution();
-  String answer = testSolution.longestPalindrome(s2);
+  String answer = testSolution.longestPalindrome(s1);
   print(answer);
 }
