@@ -9,7 +9,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart", 
-            "program": "general-algorithms/isFibonacci.dart"
+            "program": "linkedLists/reverse.dart"
         }
     ]
 }
