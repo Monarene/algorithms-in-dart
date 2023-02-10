@@ -15,6 +15,12 @@ class Solution {
 
     return true;
   }
+
+  int findAllSquareRoots(int n) {
+    int answer = 0;
+
+    return answer; 
+  }
 }
 
 void main(List<String> args) {
