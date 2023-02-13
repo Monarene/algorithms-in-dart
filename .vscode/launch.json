@@ -9,7 +9,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart", 
-            "program": "linkedLists/reverse.dart"
+            "program": "1-month-prep-kit/week2/dynamicArray.dart"
         }
     ]
 }
